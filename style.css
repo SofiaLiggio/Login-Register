@@ -105,10 +105,13 @@ body {
 }
 
 .login-container {
-  overflow: hidden;
-  z-index: 2;
+  position: absolute;
+  left: 4px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
 }
-
 
 .register-container {
   position: absolute;
@@ -212,5 +215,4 @@ header {
 
 .two label a:hover {
   text-decoration: underline;
-
 }
