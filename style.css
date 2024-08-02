@@ -12,6 +12,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -104,13 +105,10 @@ body {
 }
 
 .login-container {
-  position: absolute;
-  left: 4px;
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  z-index: 2;
 }
+
 
 .register-container {
   position: absolute;
@@ -214,4 +212,5 @@ header {
 
 .two label a:hover {
   text-decoration: underline;
+
 }
